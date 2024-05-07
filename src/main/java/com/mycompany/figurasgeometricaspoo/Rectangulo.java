@@ -13,12 +13,12 @@ public class Rectangulo extends FiguraGeometrica {
     @Override
     public double obtenerArea() {
         double areaRectan = lado1*lado2;
-        return areaRectang;
+        return areaRectan;
     }
     
     @Override
     public double obtenerPerimetro() {
-        double perímetroRectang = (2*lado1) + (2*lado2);
+        double perimetroRectang = (2*lado1) + (2*lado2);
         return perimetroRectang;
     } 
 }
